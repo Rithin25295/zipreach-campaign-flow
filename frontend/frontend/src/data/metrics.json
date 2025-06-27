@@ -1,0 +1,83 @@
+
+[
+  {
+    "date": "2024-06-01",
+    "channel": "tiktok",
+    "spend": 15,
+    "sales": 48,
+    "impressions": 12500,
+    "clicks": 320
+  },
+  {
+    "date": "2024-06-01",
+    "channel": "facebook",
+    "spend": 20,
+    "sales": 32,
+    "impressions": 8200,
+    "clicks": 180
+  },
+  {
+    "date": "2024-06-01",
+    "channel": "instagram",
+    "spend": 18,
+    "sales": 45,
+    "impressions": 9800,
+    "clicks": 250
+  },
+  {
+    "date": "2024-06-01",
+    "channel": "google",
+    "spend": 25,
+    "sales": 65,
+    "impressions": 5500,
+    "clicks": 420
+  },
+  {
+    "date": "2024-06-01",
+    "channel": "email",
+    "spend": 5,
+    "sales": 28,
+    "impressions": 3200,
+    "clicks": 480
+  },
+  {
+    "date": "2024-06-02",
+    "channel": "tiktok",
+    "spend": 18,
+    "sales": 54,
+    "impressions": 15200,
+    "clicks": 380
+  },
+  {
+    "date": "2024-06-02",
+    "channel": "facebook",
+    "spend": 22,
+    "sales": 28,
+    "impressions": 7800,
+    "clicks": 165
+  },
+  {
+    "date": "2024-06-02",
+    "channel": "instagram",
+    "spend": 20,
+    "sales": 42,
+    "impressions": 10500,
+    "clicks": 280
+  },
+  {
+    "date": "2024-06-02",
+    "channel": "google",
+    "spend": 28,
+    "sales": 72,
+    "impressions": 6200,
+    "clicks": 485
+  },
+  {
+    "date": "2024-06-02",
+    "channel": "email",
+    "spend": 5,
+    "sales": 31,
+    "impressions": 3500,
+    "clicks": 520
+  }
+]
