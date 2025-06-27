@@ -1045,17 +1045,21 @@ const AssetSlide: React.FC<AssetSlideProps> = ({ title, asset }) => {
         >
           {/* Asset Image Container */}
           <motion.div 
-            className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-purple-100 to-blue-100"
+            className="relative rounded-2xl overflow-hidden shadow-2xl"
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            {/* Image */}
-            <div className="aspect-[4/3] relative">
-              <img 
-                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&h=450&fit=crop&crop=center"
-                alt={asset.name}
-                className="w-full h-full object-cover"
+            {/* Image Container with Fallback */}
+            <div className="aspect-[4/3] relative bg-gradient-to-br from-purple-500 to-blue-600">
+              <div 
+                className="absolute inset-0 bg-cover bg-center"
+                style={{
+                  backgroundImage: `url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&h=450&fit=crop&crop=center')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center'
+                }}
               />
+              <div className="absolute inset-0 bg-black/20" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
               
               {/* Video Play Button */}
