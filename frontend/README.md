@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# ZipReach - Social Media Campaign Management Platform
 
-## Project info
+ZipReach is a powerful, all-in-one social media campaign management platform that helps businesses streamline their social media presence, analyze performance, and maximize engagement across multiple channels.
 
-**URL**: https://lovable.dev/projects/fb0a75b0-69ad-4533-87da-240d97716af7
+## ✨ Key Features
 
-## How can I edit this code?
+### 📊 Analytics Dashboard
+- Real-time performance metrics
+- Custom KPI tracking
+- Engagement analytics
+- Cross-channel performance comparison
 
-There are several ways of editing your application.
+### 🤖 ChatLab
+- AI-powered content suggestions
+- Automated response management
+- Sentiment analysis
+- Engagement optimization
 
-**Use Lovable**
+### 🔗 Multi-Channel Connectors
+- Seamless integration with:
+  - Instagram
+  - Meta (Facebook)
+  - TikTok
+  - Google Business
+- Single dashboard control for all platforms
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fb0a75b0-69ad-4533-87da-240d97716af7) and start prompting.
+### 📅 Smart Scheduler
+- Automated posting
+- Best time to post recommendations
+- Content calendar management
+- Bulk scheduling capabilities
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎯 Asset Studio
+- Visual campaign builder
+- A/B testing tools
+- Campaign templates
+- Performance tracking
 
-**Use your preferred IDE**
+### 🏪 Asset Marketplace
+- Ready-to-use templates
+- Custom asset library
+- Brand asset management
+- Collaboration tools
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repository
+git clone <repository-url>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd frontend
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Environment Setup
+Create a `.env` file in the root directory with your configuration:
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_key
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠 Tech Stack
 
-**Use GitHub Codespaces**
+- **Frontend Framework**: React with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **State Management**: React Context
+- **Backend Integration**: Supabase
+- **Authentication**: Supabase Auth
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/     # Reusable UI components
+├── contexts/       # React context providers
+├── pages/         # Main application pages
+├── hooks/         # Custom React hooks
+├── utils/         # Utility functions
+├── types/         # TypeScript type definitions
+└── assets/        # Static assets
+```
 
-This project is built with:
+## 🤝 Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-## How can I deploy this project?
+## 📄 License
 
-Simply open [Lovable](https://lovable.dev/projects/fb0a75b0-69ad-4533-87da-240d97716af7) and click on Share -> Publish.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Can I connect a custom domain to my Lovable project?
+## 📞 Support
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For support, please email support@zipreach.com or visit our [documentation](https://docs.zipreach.com).
