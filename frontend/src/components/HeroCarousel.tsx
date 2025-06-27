@@ -1052,11 +1052,21 @@ const AssetSlide: React.FC<AssetSlideProps> = ({ title, asset }) => {
             {/* Image */}
             <div className="aspect-[4/3] relative">
               <img 
-                src="/src/assets/marketing/campaign-preview.png" 
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&h=450&fit=crop&crop=center"
                 alt={asset.name}
-                className="w-full h-full object-contain scale-110"
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+              
+              {/* Video Play Button */}
+              <motion.div
+                className="absolute inset-0 flex items-center justify-center"
+                whileHover={{ scale: 1.1 }}
+              >
+                <div className="w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
+                  <Play className="w-10 h-10 text-white" />
+                </div>
+              </motion.div>
             </div>
 
             {/* Title Overlay with Sequenced Animation */}
