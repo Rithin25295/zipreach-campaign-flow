@@ -1052,7 +1052,7 @@ const AssetSlide: React.FC<AssetSlideProps> = ({ title, asset }) => {
             {/* Image */}
             <div className="aspect-[4/3] relative">
               <img 
-                src="/lovable-uploads/8cd60018-7ee8-4a2a-a687-2da01a2013fa.png" 
+                src="/src/assets/marketing/campaign-preview.png" 
                 alt={asset.name}
                 className="w-full h-full object-contain scale-110"
               />
