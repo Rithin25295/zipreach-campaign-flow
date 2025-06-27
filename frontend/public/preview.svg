@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 20" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Gradient Background -->
+  <rect width="1200" height="630" fill="url(#grad)"/>
+  
+  <!-- Grid Pattern -->
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Logo -->
+  <rect x="100" y="100" width="80" height="80" rx="20" fill="white"/>
+  <text x="140" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="url(#grad)" text-anchor="middle">Z</text>
+  
+  <!-- Company Name -->
+  <text x="200" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="white">ZipReach</text>
+  <text x="200" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="rgba(255,255,255,0.8)">AI-Powered Marketing Automation</text>
+  
+  <!-- Main Text -->
+  <text x="100" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="bold" fill="white">Transform Your</text>
+  <text x="100" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="bold" fill="white">Marketing Strategy</text>
+  
+  <!-- Description -->
+  <text x="100" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)">One platform to create, manage, and optimize your</text>
+  <text x="100" y="480" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)">multi-channel marketing campaigns with AI-powered insights</text>
+  
+  <!-- Features -->
+  <g transform="translate(100, 520)">
+    <rect width="250" height="60" rx="12" fill="rgba(255,255,255,0.1)"/>
+    <text x="125" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="white" text-anchor="middle">AI-Powered Campaigns</text>
+  </g>
+  
+  <g transform="translate(370, 520)">
+    <rect width="250" height="60" rx="12" fill="rgba(255,255,255,0.1)"/>
+    <text x="125" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="white" text-anchor="middle">Multi-Channel Marketing</text>
+  </g>
+  
+  <g transform="translate(640, 520)">
+    <rect width="250" height="60" rx="12" fill="rgba(255,255,255,0.1)"/>
+    <text x="125" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="white" text-anchor="middle">Cross-Platform Analytics</text>
+  </g>
+  
+  <g transform="translate(910, 520)">
+    <rect width="250" height="60" rx="12" fill="rgba(255,255,255,0.1)"/>
+    <text x="125" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="white" text-anchor="middle">Automated Growth</text>
+  </g>
+</svg> 
