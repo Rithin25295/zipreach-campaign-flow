@@ -362,7 +362,7 @@ const LandingPage = () => {
                   <div className="flex-1">
                     <div className="text-xs text-emerald-500 dark:text-emerald-400 font-medium mb-1">ZipReach AI</div>
                     <p className="text-gray-800 dark:text-gray-200">
-                      AI crafts perfect ad sets for Instagram and TikTok, tailored to eco-conscious buyers
+                      Turns a single idea into scroll-stopping ad sets across every channel—automatically tuned to the audience you want.
                     </p>
                   </div>
                 </div>
@@ -400,7 +400,7 @@ const LandingPage = () => {
                   <div className="flex-1">
                     <div className="text-xs text-orange-500 dark:text-orange-400 font-medium mb-1">Smart Optimization</div>
                     <p className="text-gray-800 dark:text-gray-200">
-                      ZipReach spots TikTok outperforming—automatically shifts budget for better returns with your permission
+                      ZipReach sees the winning channel and glides your budget toward it—boosting returns without breaking your flow.
                     </p>
                   </div>
                 </div>
@@ -419,7 +419,7 @@ const LandingPage = () => {
                   <div className="flex-1">
                     <div className="text-xs text-pink-500 dark:text-pink-400 font-medium mb-1">Results</div>
                     <p className="text-gray-800 dark:text-gray-200">
-                      Wake up to a beautiful performance GIF: 32 bottles sold while you slept!
+                      Wake up to a share-worthy performance GIF—your overnight wins served in one glance.
                     </p>
                   </div>
                 </div>
