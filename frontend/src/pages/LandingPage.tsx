@@ -200,7 +200,7 @@ const LandingPage = () => {
                 className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-indigo-600/0 via-purple-600 to-emerald-500/0"
               />
             </h2>
-            <p className="mt-4 text-center max-w-2xl mx-auto text-gray-600 dark:text-gray-300 relative z-10 whitespace-nowrap">Tell ZipReach your goal—AI builds the ads, launches everywhere, and shows performance in real time.</p>
+            <p className="mt-4 text-center max-w-2xl mx-auto text-gray-600 dark:text-gray-300 relative z-10 sm:whitespace-nowrap">Tell ZipReach your goal—AI builds the ads, launches everywhere, and shows performance in real time.</p>
           </motion.div>
 
           {/* Persona Cards with enhanced container */}
