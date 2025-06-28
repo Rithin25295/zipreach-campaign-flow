@@ -1,0 +1,48 @@
+
+
+/* Enhanced tooltips */
+@media (hover: hover) {
+  .optionTooltip option[data-tip]:hover::after,
+  .optionTooltip option[data-tip]:focus::after {
+    content: attr(data-tip);
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.97), rgba(59, 130, 246, 0.97));
+    color: white;
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    border-radius: 0.75rem;
+    z-index: 40;
+    white-space: pre-line;
+    box-shadow: 
+      0 4px 12px rgba(0, 0, 0, 0.1),
+      0 0 0 1px rgba(255, 255, 255, 0.1);
+    animation: tooltipFadeIn 0.3s cubic-bezier(0.21, 1.11, 0.81, 0.99);
+    backdrop-filter: blur(8px);
+    max-width: 280px;
+    line-height: 1.4;
+  }
+}
+
+/* Main tooltip */
+.mainTooltip {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.97), rgba(59, 130, 246, 0.97));
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  animation: tooltipFadeIn 0.3s cubic-bezier(0.21, 1.11, 0.81, 0.99);
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+} 

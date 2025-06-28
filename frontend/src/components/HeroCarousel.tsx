@@ -52,9 +52,36 @@ const slides = [
     id: 'board',
     title: 'Zippy Board',
     kpis: [
-      { logo: <MetaIcon className="w-4 h-4 md:w-5 md:h-5" />, label: 'Meta', roas: 4.2, delta: '+0.3', color: 'text-blue-500', bgColor: 'from-blue-50 to-blue-100', borderColor: 'border-blue-200/60' },
-      { logo: <GoogleAdsIcon className="w-4 h-4 md:w-5 md:h-5" />, label: 'Google', roas: 3.8, delta: '-0.2', color: 'text-green-500', bgColor: 'from-green-50 to-emerald-100', borderColor: 'border-green-200/60' },
-      { logo: <FaTiktok />, label: 'TikTok', roas: 3.1, delta: '+0.5', color: 'text-gray-700', bgColor: 'from-gray-50 to-slate-100', borderColor: 'border-gray-200/60' },
+      {
+        logo: <MetaIcon className="w-4 h-4 md:w-5 md:h-5" />,
+        label: 'Meta',
+        roas: 4.2,
+        delta: '+0.3',
+        color: 'text-blue-500',
+        labelColor: 'text-blue-500 dark:text-blue-400',
+        bgColor: 'from-blue-50 to-blue-100',
+        borderColor: 'border-blue-200/60'
+      },
+      {
+        logo: <GoogleAdsIcon className="w-4 h-4 md:w-5 md:h-5" />,
+        label: 'Google',
+        roas: 3.8,
+        delta: '-0.2',
+        color: 'text-green-500',
+        labelColor: 'text-emerald-900 dark:text-emerald-900',
+        bgColor: 'from-green-50 to-emerald-100',
+        borderColor: 'border-green-200/60'
+      },
+      {
+        logo: <FaTiktok />,
+        label: 'TikTok',
+        roas: 3.1,
+        delta: '+0.5',
+        color: 'text-gray-700',
+        labelColor: 'text-purple-900 dark:text-purple-900',
+        bgColor: 'from-gray-50 to-slate-100',
+        borderColor: 'border-gray-200/60'
+      },
     ],
     spend: 845,
     roas: 3.8,
@@ -108,6 +135,7 @@ interface BoardSlideProps {
     color: string;
     bgColor: string;
     borderColor: string;
+    labelColor?: string;
   }>;
   spend: number;
   roas: number;
@@ -766,7 +794,11 @@ const BoardSlide: React.FC<BoardSlideProps> = ({ title, kpis, spend, roas, reven
                 >
                   {k.logo}
                 </motion.div>
-                <span className="text-[10px] sm:text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300">{k.label}</span>
+                <span
+                  className={`text-[10px] sm:text-xs md:text-sm ${k.label === 'Meta' ? 'font-semibold' : 'font-medium'} ${k.labelColor ?? 'text-gray-700 dark:text-gray-300'}`}
+                >
+                  {k.label}
+                </span>
               </div>
             </div>
             <div className="flex items-center justify-between relative z-10">
